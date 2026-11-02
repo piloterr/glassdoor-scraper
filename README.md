@@ -76,7 +76,7 @@ response = requests.get(
     params={
         "query": "1692882",
     },
-    timeout=60,
+    timeout=120,
 )
 response.raise_for_status()
 data = response.json()
@@ -198,7 +198,7 @@ response = requests.get(
     params={
         "query": "airbus",
     },
-    timeout=60,
+    timeout=120,
 )
 response.raise_for_status()
 data = response.json()
@@ -323,7 +323,7 @@ response = requests.get(
     params={
         "query": "1010283388161",
     },
-    timeout=60,
+    timeout=120,
 )
 response.raise_for_status()
 data = response.json()
@@ -444,7 +444,7 @@ response = requests.get(
     params={
         "query": "security",
     },
-    timeout=60,
+    timeout=120,
 )
 response.raise_for_status()
 data = response.json()
